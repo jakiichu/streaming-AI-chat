@@ -1,5 +1,5 @@
 interface IMessageEntities {
-    key: string
+    id: string
     text: string
     user: 'me' | 'other'
 }
