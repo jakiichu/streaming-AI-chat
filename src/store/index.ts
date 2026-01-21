@@ -5,7 +5,7 @@ interface IChatStoreMethods {
     data: IMessages
     addItem: (item: IMessageEntities) => void
     changeItem: (id: string, newItem: IMessageEntities) => void
-    findOne: (id: string) => IMessageEntities
+    findOne: (id: string) => IMessageEntities | undefined
 }
 
 const initialData = [
